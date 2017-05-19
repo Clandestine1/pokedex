@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import Pokedex from './components/Pokedex'
-import Pokemon from './components/Pokemon'
-import PokeIndex from './components/PokeIndex'
-import fetch from 'isomorphic-fetch';
-
+import Pokedex from './components/Pokedex';
 import './App.css';
 
 class App extends Component {
@@ -12,8 +8,6 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <Pokedex />
-          <Pokemon />
-          <PokeIndex />
         </div>
       </div>
     );
